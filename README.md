@@ -1,8 +1,9 @@
-1. 데이터 셋 설명 
+# Section2: 뇌졸중 예측 모델 제작
+
+### 1. 데이터 셋 설명 
 
 kaggle의 Stroke Prediction 데이터 셋으로 
-
-[Stroke Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)
+- https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 
 데이터 구성은 5100명의 환자에 대한 정보로 
 
@@ -10,7 +11,7 @@ kaggle의 Stroke Prediction 데이터 셋으로
 
 환자의 흡연여부(smoking_status)로 구성되어 있습니다. 
 
-2. 프로젝트에서 풀고자 하는 문제
+### 2. 프로젝트에서 풀고자 하는 문제
 
 뇌졸중은 국내 3대 사망원인 중 하나로 뇌에 혈액을 공급하는 혈관이 막히거나 터지면 뇌가 손상되는 질환으로 언제 어디에서 찾아올지 모르고 생존해도 치명적인 휴유증이 남을 수 있다
 
@@ -24,11 +25,11 @@ kaggle의 Stroke Prediction 데이터 셋으로
 
 넷째, 나이 vs 평균 혈당수치와 나이 vs bmi를 비교하였습니다.
 
-3. 프로젝트 진행과정 
+### 3. 프로젝트 진행과정 
 
 데이터셋의 타깃 데이터가 불균형하여 데이터의 개수가 적은 클래스의 표본을 가져온 뒤 임의의 값을 추가하여 새로운 샘플을 만들어 데이터에 추가하는 방식을 사용하였고 기준 모델을 만들어 뇌졸중 예방을 목적으로 하기에 재현율 점수가 중요함을 알게 되었습니다.  
 
-4. 문제상황 해결과정 (분석기법, 모델 등)
+### 4. 문제상황 해결과정 (분석기법, 모델 등)
 
 가설 해석으로,  분포도를 보며, 나이가 많을 수록 뇌졸중에 걸릴 가능성이 높다는 것은 채택되었습니다. 
 
@@ -50,7 +51,7 @@ kaggle의 Stroke Prediction 데이터 셋으로
 
 모델 선정으로 랜덤포레스트 모델, 로지스틱 회귀모델을 비교하였습니다. 
 
-5. 결과정리 
+### 5. 결과정리 
 
 랜덤포레스트는 높은 정확도를 보였고, 로지스틱 회귀모델은 높은 재현율을 보였습니다. 
 
@@ -64,6 +65,6 @@ kaggle의 Stroke Prediction 데이터 셋으로
 
 ![화면 캡처 2023-05-04 012600.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/09b4ed56-64cb-404a-a0a6-a1baf8ea8f7e/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2023-05-04_012600.jpg)
 
-6. 한계점 및 해결방안
+### 6. 한계점 및 해결방안
 
 도메인 지식의 부족과 머신러닝 실력이 부족함을 느꼈고 혼공학습단 8기에 합류하여 머신러닝, 딥러닝 과정을 공부하였습니다. 
