@@ -33,21 +33,21 @@ kaggle의 Stroke Prediction 데이터 셋으로
 
 가설 해석으로,  분포도를 보며, 나이가 많을 수록 뇌졸중에 걸릴 가능성이 높다는 것은 채택되었습니다. 
 
-![download.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/01958137-4380-47c7-ba7e-7ae05d2c6a30/download.png)
+<img width="500" src="https://user-images.githubusercontent.com/102473586/236324327-70b41285-e887-4b91-a889-f793c434b3bc.png">
 
 혈액내 평균 혈당지수가 높을수록 뇌졸중에 걸릴 가능성이 높다는 가설은 기각되었고, 50~100사이와 200부근에서 많이 분포한다는 것을 알 수 있었습니다.
 
-![download.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/eee5e6ce-d13b-4b65-8f53-52faf9b2f315/download.png)
+<img width="500" src="https://user-images.githubusercontent.com/102473586/236324547-65aa25fa-8318-43a0-8c63-3a145d8a3079.png">
 
 또한, 체질량 지수가 높을수록 뇌졸중에 걸릴 가능성이 높다는 가설은 기각되었으며 bmi 지수가 25~30 사이에 많이 분포되어 있음을 알수 있었습니다. 
 
-![download.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/01064089-e7bd-4408-b9fe-8cdabb321c07/download.png)
+<img width="500" src="https://user-images.githubusercontent.com/102473586/236324655-1ca7c633-a560-4dfe-a3a0-5da61f7de32f.png">
 
 나이와 평균 혈당 수치, 나이와 BMI를 비교하였을 때, 나이와 혈당수치, BMI는 연관이 있음을 알 수 있었습니다 . 
 
-![download.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7866c3d0-0569-4d26-b136-6596473532dc/download.png)
+<img width="500" src="https://user-images.githubusercontent.com/102473586/236324724-b6845040-b489-4278-884c-118d7099abad.png">
 
-![download.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2d31b990-d866-4f72-8074-6e9b0a82c417/download.png)
+<img width="500" src="https://user-images.githubusercontent.com/102473586/236324799-8c0581e8-1146-47fb-8263-5f1ac4420214.png">
 
 모델 선정으로 랜덤포레스트 모델, 로지스틱 회귀모델을 비교하였습니다. 
 
@@ -55,7 +55,7 @@ kaggle의 Stroke Prediction 데이터 셋으로
 
 랜덤포레스트는 높은 정확도를 보였고, 로지스틱 회귀모델은 높은 재현율을 보였습니다. 
 
-![download.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5ee9fc7e-706d-4911-b1a1-b9150d6d5db7/download.png)
+<img width="500" src="https://user-images.githubusercontent.com/102473586/236324879-c94d90aa-f361-4a9a-b71c-3c27967cec1a.jpg">
 
 랜덤포레스트 모델에서는 나이, 혈당 수치, bmi, work_type이 중요한 수치로 나타났고, 
 
