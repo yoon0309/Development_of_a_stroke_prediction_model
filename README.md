@@ -47,23 +47,21 @@ kaggle의 Stroke Prediction 데이터 셋으로
 
 <img width="500" src="https://user-images.githubusercontent.com/102473586/236324724-b6845040-b489-4278-884c-118d7099abad.png">
 
-<img width="500" src="https://user-images.githubusercontent.com/102473586/236324799-8c0581e8-1146-47fb-8263-5f1ac4420214.png">
-
 모델 선정으로 랜덤포레스트 모델, 로지스틱 회귀모델을 비교하였습니다. 
 
 ### 5. 결과정리 
 
 랜덤포레스트는 높은 정확도를 보였고, 로지스틱 회귀모델은 높은 재현율을 보였습니다. 
 
-<img width="500" src="https://user-images.githubusercontent.com/102473586/236324879-c94d90aa-f361-4a9a-b71c-3c27967cec1a.jpg">
+<img width="500" src="https://user-images.githubusercontent.com/102473586/236324799-8c0581e8-1146-47fb-8263-5f1ac4420214.png">
 
 랜덤포레스트 모델에서는 나이, 혈당 수치, bmi, work_type이 중요한 수치로 나타났고, 
 
 로지스틱 회귀 모델에서는 bmi, 고혈압, 결혼여부, 나이, 심장질환여부가 중요한 변수로 확인됨을 알 수 있었습니다. 
 
-![화면 캡처 2023-05-04 012537.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/92b298ac-631a-4373-9ba1-5d375acf9b8a/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2023-05-04_012537.jpg)
+<img width="500" src="https://user-images.githubusercontent.com/102473586/236324879-c94d90aa-f361-4a9a-b71c-3c27967cec1a.jpg">
 
-![화면 캡처 2023-05-04 012600.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/09b4ed56-64cb-404a-a0a6-a1baf8ea8f7e/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2023-05-04_012600.jpg)
+<img width="500" src="https://user-images.githubusercontent.com/102473586/236325179-5256bd7c-a2da-485e-bf1f-fc4333b5865f.jpg">
 
 ### 6. 한계점 및 해결방안
 
